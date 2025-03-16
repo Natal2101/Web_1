@@ -1,0 +1,19 @@
+body {
+    font-size: 24px;
+}
+span.red {
+    color: red;
+}
+span.green {
+    color: green;
+}
+Смысл текста не отражает его внешний вид. Проблема : ошибка в селекте для класса. Должно быть:
+body {
+    font-size: 24px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
